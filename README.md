@@ -57,5 +57,10 @@ This API is secured using JWT tokens. To use protected endpoints, you must authe
 - POST   /api/v1/departments      --> Create Department (secured)
 - PUT    /api/v1/departments/{id} --> Update Department (secured)
 - GET    /api/v1/departments      --> Get All Departments
+---------------------------
+   Notes
+---------------------------
 
+- Make sure your `appsettings.json` contains the JWT settings and admin credentials.
+- Ensure your database is created and seeded with test data as needed.
 
